@@ -18,7 +18,6 @@ import { UserKittenComponent } from './user-kitten/user-kitten.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgModule,
     FormsModule
   ],
   providers: [],

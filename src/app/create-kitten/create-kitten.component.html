@@ -3,7 +3,7 @@
 <form #newKitten="ngForm" (ngSubmit)="newKitten.valid && onSubmit()">
   <fieldset>
     <label for="kitten-name">Nom</label>
-    <input id="kitten-name" name="kitten-name" type="text" [(ngModel)] = "name" required>
+    <input id="kitten-name" name="kitten-name" type="text" [(ngModel)] = "model.name" required>
   </fieldset>
 
   <fieldset>
